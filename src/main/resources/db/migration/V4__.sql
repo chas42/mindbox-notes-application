@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS user_note
+(
+    id   BIGINT       NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NULL,
+    CONSTRAINT pk_user_note PRIMARY KEY (id)
+);
